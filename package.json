@@ -1,0 +1,28 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon ./server.ts"
+  },
+  "keywords": [],
+  "author": "Vignesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/pg": "^8.6.5",
+    "@types/shortid": "0.0.29",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "shortid": "^2.2.16"
+  }
+}
